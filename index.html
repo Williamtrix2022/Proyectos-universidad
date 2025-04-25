@@ -1,175 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universidad - Inicio </title>
-    <link rel="stylesheet" href="style.css"> <!-- Enlazar CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
-
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gobernación de Córdoba</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
 
-    <header>
-       
-        <div class="top-bar">
-            <nav class="top-menu">
-                <ul>
+  <!-- Encabezado azul con el logo -->
+  <div class="top-bar">
+    <span class="logo-gov">¡GOV.CO</span>
+    <button class="btn-lang">EN</button>
+  </div>
 
-                <!-- Lista de enlaces en la barra superior -->
-                <li><a href="#">Aspirantes</a></li>
-                <li><a href="#">Estudiantes</a></li>
-                <li><a href="#">Egresados</a></li>
-                <li><a href="#">Docentes</a></li>
-                <li><a href="#">Administrativos</a></li>
-                <li><a href="#">Bienestar</a></li>
-                <li><a href="#">Campus Virtual</a></li>
-                <li><a href="#">Academusoft</a></li>
-                <li><a href="#">Centro de Idiomas</a></li>
-                <li><a href="#">Biblioteca</a></li>
-            </ul>
-        </nav>
+  <!-- Encabezado blanco y barra, logo; -->
+  <header class="main-header">
+    <img src="logo de Cordoba.png" alt="Gobernación de Córdoba" class="logo-cordoba">
+    <div class="search-login">
+      <a href="#" class="login-link">Iniciar sesión</a>
+      <div class="search-box">
+        <input type="text" placeholder="Buscar...">
+        <button class="search-btn">🔍</button>
+      </div>
+    </div>
+  </header>
 
-        <!-- 🔹 Íconos de redes sociales -->
-        <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>    
-        </div>
+  <!-- Menú -->
+  <nav class="nav-menu">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="/transparencia.html">Transparencia y Acceso a la Información Pública</a></li>
+
+      <li><a href="#">Atención y Servicios a la Ciudadanía ▼</a></li>
+      <li><a href="/participa.html">participa</a></li>
+      <li><a href="#">Nuestra Entidad ▼</a></li>
+      <li><a href="#">Trámites y servicios ▼</a></li>
+      <li><a href="#">☰</a></li>
+    </ul>
+
+    <section class="banner-estatico">
+      <img src="principal.png" alt="Festival Bonche de Oro 2025 en Córdoba">
+    </section>
+    
+    
+<!-- Título de la sección -->
+<section class="anuncios-destacados">
+  <h2>Anuncios Destacados</h2>
+  <p>Las noticias que sobresalen en nuestro departamento</p>
+
+  <!-- Contenedor Swiper -->
+  <div class="swiper anunciosSwiper">
+    <div class="swiper-wrapper">
+      
+      <!-- anuncio 1 -->
+      <div class="swiper-slide tarjeta-anuncio">
+        <img src="anuncio1.png" alt="Anuncio 1">
+        <p>Provisión encargos empleos carrera administrativa</p>
+      </div>
+
+      <!-- anuncio 2 -->
+      <div class="swiper-slide tarjeta-anuncio">
+        <img src="anuncio2.png" alt="Anuncio 2">
+        <p>Informe de Gestión preliminar de niñez, adolescencia y juventud 2020–2023</p>
+      </div>
+
+      <!-- anuncio  3 -->
+      <div class="swiper-slide tarjeta-anuncio">
+        <img src="anuncio3.png" alt="Anuncio 3">
+        <p>Resultados definitivos de la Convocatoria N.º 2147 y 2157 de 2023</p>
+      </div>
+
     </div>
 
-    <!-- 🔹 Sección principal del encabezado con logo y menú de navegación -->
-    <div class="main-header">
-        <!-- Logo de la Universidad -->
-        <img src="logo_universidad.png" alt="Universidad de Córdoba" class="logo">
+    <!-- Botones de navegación -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
 
-        <!-- Menú principal -->
-        <nav class="main-menu">
-            <ul>
-                <li><a href="atencion-al-ciudadano.html">INSTITUCIONAL</a></li>
-                <li><a href="#">ACADEMIA</a></li>
-                <li><a href="#">INVESTIGACIÓN</a></li>
-                <li><a href="#">EXTENSIÓN</a></li>
-                <li><a href="#">ADMISIONES</a></li>
-                <li><a href="#">INTERNACIONALIZACIÓN</a></li>
-                
-                <!-- Ícono de búsqueda -->
-                <li><a href="#"><i class="fa fa-search"></i></a></li>
-            </ul>
-        </nav>    
-    </div>
-</header>
-        
-<section class="main-banner">
-    <img src="imagen_principal.png" alt="Imagen Principal" class="banner-image">
-</section>
-
-<section class="stats-section">
-    <div class="stat">
-        <img src="grado.jpg" alt="Graduación">
-        <h2>015</h2>
-        <p>Programas con acreditación alta calidad</p>
-    </div>
-    <div class="stat">
-        <img src="internet.jpg" alt="Mundo">
-        <h2>02</h2>
-        <p>Programas con acreditación internacional</p>
-    </div>
-    <div class="stat">
-        <img src="id..jpg" alt="Estudiantes">
-        <h2>014669</h2>
-        <p>Total estudiantes matriculados</p>
-    </div>
-    <div class="stat">
-        <img src="casa.jpg" alt="Casa">
-        <h2>02023</h2>
-        <p>Acreditación Alta Calidad renovación</p>
-    </div>
-    <div class="stat">
-        <img src="estadistica.jpg" alt="Gráfica">
-        <p>Consulta Nuestras Estadísticas</p>
-    </div>
+    <!-- Paginación -->
+    <div class="swiper-pagination"></div>
+  </div>
 </section>
 
 
-<section class="eventos">
-    <div class="evento">
-        <img src="evento1.jpg" alt="Evento 1">
-    </div>
-    <div class="evento">
-        <img src="evento2.jpg" alt="Evento 2">
-    </div>
-    <div class="evento">
-        <img src="evento3.jpg" alt="Evento 3">
-    </div>
-</section>
-
-
-<section class="nuestro-canal">
-    <h2>Nuestro Canal</h2>
-    <div class="contenedor-videos">
-        <div class="video">
-            <img src="canal1.jpg" alt="Así nos ven">
-        </div>
-        <div class="video">
-            <img src="canal2.jpg" alt="EnlaU - Unicórdoba te informa">
-        </div>
-        <div class="video">
-            <iframe width="100%" height="215" src="https://www.youtube.com/embed/7OufwG0H850" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-        </div>
-    </div>
-</section>
-
-<footer>
-    <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="#"><i class="fab fa-whatsapp fa-2x"></i></a>
-            <a href="#"><i class="fas fa-envelope fa-2x"></i></a>
-        </div>
-        
-    </div>
-
-    <div class="footer-links">
-        <div>
-            <p><strong>Programas</strong></p>
-            <a href="#">Pregrado</a> |
-            <a href="#">Postgrado</a> |
-            <a href="#">Campus Virtual</a> |
-            <a href="#">Repositorio</a>
-        </div>
-        
-        <div>
-            <p><strong>Servicios</strong></p>
-            <a href="#">Mesa de ayuda</a> |
-            <a href="#">PQRS</a> |
-            <a href="#">Gestión Documental</a>
-        </div>
-
-        <div>
-            <p><strong>Información</strong></p>
-            <a href="#">Contratación</a> |
-            <a href="#">Internacionalización</a> |
-            <a href="#">Equidad Social</a> |
-            <a href="#">Convocatorias</a>
-        </div>
-    </div>
-
-    <p class="copyright">© 2025 Universidad de Córdoba. Todos los derechos reservados.</p>
-</footer>
-
-
-
+  </nav>
 
 </body>
 </html>

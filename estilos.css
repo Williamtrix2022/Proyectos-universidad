@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .top-bar {
+    background-color: #1e4ba1;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-gov {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .btn-lang {
+    background: white;
+    color: #1e4ba1;
+    border: none;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: white;
+  }
+  
+  .logo-cordoba {
+    height: 150px;
+  }
+  
+  .search-login {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .login-link {
+    color: #1e4ba1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 0.2rem 0.5rem;
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 20px;
+  }
+  
+  .search-btn {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  /*Nmenu */
+  .nav-menu {
+    background-color: #f1f1f1;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .nav-menu a:hover {
+    color: #1e4ba1;
+  }
+  
+  .banner-estatico {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0;
+  }
+  
+  .banner-estatico img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .anuncios-destacados {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .anuncios-destacados h2 {
+    font-size: 2rem;
+    color: #1a3c8d;
+    margin-bottom: 1rem;
+  }
+  
+  .anuncios-destacados p {
+    color: #ffffff;
+    margin-bottom: 3rem;
+  }
+  
+  .tarjeta-anuncio {
+    background: #1a3c8d;
+    color: #fff;
+    border-radius: 500px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .tarjeta-anuncio img {
+    width: 60%;
+    max-width: 250px;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f5f5f5;
+    padding: 15px 30px;
+    border-bottom: 4px solid #174f9e;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    margin: 15px 30px;
+    color: #666;
+  }
+  
+  .breadcrumb a {
+    color: #28a745;
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 20px 30px;
+  }
+  
+  h1 {
+    color: #174f9e;
+    font-size: 28px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .info-card {
+    margin-top: 40px;
+    border: 2px solid #174f9e;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+  }
+  
+  .info-card i {
+    font-size: 24px;
+    background-color: #174f9e;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .info-card span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb a {
+    color: green;
+    text-decoration: none;
+}
+
+h1 {
+    color: #1a4d92;
+}
+
+.botones {
+    margin: 15px 0;
+}
+
+.btn {
+    background-color: #e8edf8;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #1a4d92;
+    font-weight: bold;
+}
+
+.enlaces {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.enlaces li {
+    margin: 8px 0;
+}
+
+.enlaces a {
+    color: #1a9900;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.enlaces a:hover {
+    text-decoration: underline;
+}
+
+  
+  
